@@ -67,7 +67,7 @@ jobs:
                 prerelease: false
                 release_name: ${{ steps.version.outputs.version }}
                 tag_name: ${{ github.ref }}
-                body_path: CHANGES
+                body_path: Changes
             - name: upload
               uses: actions/upload-release-asset@v1
               env:
