@@ -50,7 +50,7 @@ my %WriteMakefile = (
 	'ABSTRACT_FROM' => $main_file,
 	'VERSION_FROM'  => $main_file,
 	'LICENSE'       => 'artistic2',
-	'AUTHOR'        => 'brian d foy <bdfoy@cpan.org>',
+	'AUTHOR'        => 'brian d foy <briandfoy@pobox.com>',
 
 	'CONFIGURE_REQUIRES' => {
 		'ExtUtils::MakeMaker'   => '6.64',
@@ -83,7 +83,7 @@ my %WriteMakefile = (
 			doi => '10.5281/zenodo.5904392',
 			authors => [{
 				name     => 'brian d foy',
-				email    => 'bdfoy@cpan.org',
+				email    => 'briandfoy@pobox.com',
 				github   => 'https://github.com/briandfoy',
 				twitter  => 'https://twitter.com/briandfoy_perl',
 				linkedin => 'https://www.linkedin.com/in/briandfoy/',
